@@ -5,7 +5,7 @@
 **Assumptions & Design Decisions**  
 Scoped the solution to a single feature component with one required subcomponent, since the task focuses on component communication, not app architecture.  
 Implemented the email input as a controlled multi-value text input, not a dropdown, because values are user-entered rather than selected.  
-Kept validation and submission logic in the parent component to maintain clear data flow.  
+Kept validation and submission logic in the parent component to maintain clear data flow and keep the input component focused on presentation and interaction.  
 Used a fixed visible item limit with a +N overflow indicator to keep the implementation simple and predictable.  
   
 **Challenges & How I Addressed Them**  
