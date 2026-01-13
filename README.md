@@ -11,4 +11,4 @@ Used a fixed visible item limit with a +N overflow indicator to keep the impleme
 **Challenges & How I Addressed Them**  
 Parent–child communication: Solved by lifting state to the parent and using explicit callbacks.  
 Single-line layout with overflow: Used a non-wrapping layout with an overflow indicator to preserve space while keeping all values accessible.  
-Popover clipping: Resolved by removing overflow: hidden from the container so the popover could render correctly.  
+Popover clipping: Resolved by removing 'overflow: hidden' from the container so the popover could render correctly.  
